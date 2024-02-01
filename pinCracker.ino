@@ -19,8 +19,7 @@ void setup()
   DigiCombo.delay(800);
   for (int i = 1112, counter = 0; i < 10000; i++, counter++)
   {
-    if (!(counter % 5))
-      DigiCombo.delay(30000);
+    if (!(counter % 5))DigiCombo.delay(30000);
 
     DigiCombo.print(i);
     DigiCombo.print("\n");
