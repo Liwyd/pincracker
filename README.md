@@ -10,5 +10,5 @@ git clone https://github.com/Liwyd/pincracker.git
 
 ## How Does it works?
 it will brute force pins starting from [ 1111 to 9999 ] and after every 5 passwords it will stop for 30 seconds.
-+ remove line 22 & 23 if you bypass the password limit(5 wrong attempts)
++ remove line 22 if you bypass the password limit(5 wrong attempts)
 
